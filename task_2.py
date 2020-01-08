@@ -7,9 +7,9 @@
 NUMB_A = 5
 NUMB_B = 6
 print(f'Даны числа {NUMB_A} и {NUMB_B}')
-print(f'Логическое "И": {NUMB_A}&{NUMB_B} = {NUMB_A & NUMB_B}')
-print(f'Логическое "ИЛИ": {NUMB_A}|{NUMB_B} = {NUMB_A | NUMB_B}')
-print(f'Логическое "ИСКЛЮЧАЮЩЕЕ ИЛИ": {NUMB_A}^{NUMB_B} = {NUMB_A ^ NUMB_B}')
-print(f'Логическое "ОТРИЦАНИЕ": ~{NUMB_A} = {~NUMB_A}')
+print(f'Логическое "И": {NUMB_A} & {NUMB_B} = {NUMB_A & NUMB_B}')
+print(f'Логическое "ИЛИ": {NUMB_A} | {NUMB_B} = {NUMB_A | NUMB_B}')
+print(f'Логическое "ИСКЛЮЧАЮЩЕЕ ИЛИ": {NUMB_A} ^ {NUMB_B} = {NUMB_A ^ NUMB_B}')
+print(f'Логическое "ОТРИЦАНИЕ": ~ {NUMB_A} = {~NUMB_A}')
 print(f'Сдвиг влево на 2 знака: {NUMB_A} << 2 = {NUMB_A<<2}')
 print(f'Сдвиг вправо на 2 знака: {NUMB_A} >> 2 = {NUMB_A>>2}')
