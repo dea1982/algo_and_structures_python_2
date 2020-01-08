@@ -6,5 +6,5 @@
 try:
     NUMB = int(input("Введите номер буквы: "))
     print(f"Введёному номеру соответствует буква: {chr(ord('a') + NUMB - 1)}")
-except:
+except BaseException:
     print("Вы ввели букву!")
